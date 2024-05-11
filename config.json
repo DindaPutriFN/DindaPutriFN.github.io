@@ -32,6 +32,10 @@
       }
     ]
   },
+  "log" : {
+    "access": "/var/log/xray/access.log",
+    "loglevel": "info"
+  },
   "inbounds": [
     {
       "listen": "127.0.0.1",
@@ -329,4 +333,5 @@
       }
     }
   ]
+}
 }
